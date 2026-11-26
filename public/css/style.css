@@ -1,0 +1,67 @@
+:root {
+  --verde: #2e7d32;
+  --verde-claro: #81c784;
+  --crema: #f1f8e9;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--crema);
+}
+
+.navbar {
+  background-color: var(--verde) !important;
+}
+
+.navbar-brand, .nav-link {
+  color: #fff !important;
+}
+
+.nav-link:hover {
+  color: var(--verde-claro) !important;
+}
+
+.hero {
+  background: linear-gradient(rgba(46,125,50,.75), rgba(46,125,50,.75)),
+              url('../img/hero.jpg') center/cover no-repeat;
+  color: #fff;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.card-servicio {
+  transition: transform .3s, box-shadow .3s;
+  border: none;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.card-servicio:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0,0,0,.15);
+}
+
+.card-servicio img {
+  height: 220px;
+  object-fit: cover;
+}
+
+footer {
+  background-color: var(--verde);
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.icono-equipo {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid var(--verde-claro);
+}
